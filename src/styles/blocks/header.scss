@@ -1,0 +1,52 @@
+header {
+  position: relative;
+  z-index: 10;
+
+  color: $colorText;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0.05em;
+
+  margin-bottom: 130px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__contact {
+  display: flex;
+  align-items: center;
+
+  column-gap: 21px;
+}
+
+.number__link:hover {
+  color: $colorTitle;
+  transition: .3s ease;
+}
+
+.header__wa {
+  // min-width: 177px ;
+  background-color: $colorBtnBackground;
+
+  text-align: center;
+}
+
+.wa__link {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 10px 45px;
+
+  &:hover {
+    transform: translateY(-2px);
+    transition: .3s;
+    
+  }
+
+}
+

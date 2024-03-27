@@ -1,0 +1,14 @@
+// .nav {
+//   @media (max-width: 768px) {
+//     color: red;}
+// }
+
+.nav__list {
+  display: flex;
+  column-gap: 90px;
+};
+
+.nav__link:hover {
+  color: $colorTitle;
+  transition: .3s ease;
+}

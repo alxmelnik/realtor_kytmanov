@@ -1,0 +1,104 @@
+.benefit {
+  background-color: $backcolorDesc;
+  color: $colorText;
+}
+
+.benefit__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefit__title {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 50.4px;
+  letter-spacing: 0.05em;
+
+  text-align: center;
+
+  padding-top: 35px;
+  margin-bottom: 35px;
+}
+
+.benefit__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 120px;
+}
+
+.benefit__item {
+  max-width: 337px;
+  column-gap: 80px;
+}
+
+.benefit__number {
+  font-size: 20px;
+
+  border-bottom: 1px solid $colorText;
+
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.benefit__desc {
+  color: $colorTextSecond;
+  text-transform: uppercase;
+  line-height: 19.36px;
+  letter-spacing: 0.05em;
+
+  // padding-bottom: 30px;
+  min-height: 70px;
+}
+
+.benefit__text {
+  line-height: 19.36px;
+  letter-spacing: 0.05em;
+}
+
+.benefit-win {
+  min-height: 145px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: $main-backcolor;
+  color: black;
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  letter-spacing: 0.05em;
+}
+
+
+
+.benefit-win__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 82px;
+}
+
+.benefit-win__item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 13px;
+}
+
+.benefit-win__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // width: 77px;
+  // height: 77px;
+}
+
+.benefit-win__text {
+  max-width: 197px;
+}

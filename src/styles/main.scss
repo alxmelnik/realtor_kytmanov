@@ -1,0 +1,24 @@
+
+$main-backcolor:rgb(171, 171, 171);
+$backcolorDesc: rgba(40, 43, 48, 1);
+
+$colorText: rgb(255, 255, 255);
+$colorTextSecond: rgb(191, 166, 135);
+$colorTitle: rgb(207, 180, 149);
+$colorTitleSecond: rgba(178, 136, 86, 1);
+
+// $colorTextParag: rgb(89,42,32);
+// $colorWhite: white;
+
+
+$colorBtnBackground: rgba(180, 156, 130, 0.77);
+
+
+@import "./layout/media.scss";
+@import "./layout/base.scss";
+
+@import "./blocks/*.scss";
+
+// @import "./blocks/_header.scss";
+// @import "./blocks/_menu.scss";
+// @import "./blocks/_nav.scss";
