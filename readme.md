@@ -11,8 +11,8 @@
 | ФИО | Мельник Александр Игоревич |
 | ------ | ------ |
 | Почта| alxmelnik@yandex.ru |
-| Ссылка на репозиторий | https://github.com/alxmelnik/|
-| Ссылка на рабочий сайт | https://alxmelnik.github.io/|
+| Ссылка на репозиторий | https://github.com/alxmelnik/realtor_kytmanov|
+| Ссылка на рабочий сайт | https://alxmelnik.github.io/realtor_kytmanov/|
 | Примечания | - |
 
 
