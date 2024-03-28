@@ -1,7 +1,7 @@
 .service {
   color: $colorText;
-  min-height: 100vh;
-  // min-height: 970px;
+  // min-height: 100vh;
+  min-height: 970px;
 
   position: relative;
   border-bottom: 2px solid black;
@@ -154,7 +154,7 @@
   padding: 8px 47px;
 
   &:hover {
-    background-color: rgb(164, 133, 101);
+    background-color: $colorBtnBackgroundHover;
     transition: 0.3s
     
   };

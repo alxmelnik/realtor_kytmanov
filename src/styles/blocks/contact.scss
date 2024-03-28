@@ -1,0 +1,49 @@
+.contact {
+  color: $colorTitle;
+}
+
+.contact__title {
+  color: $backcolorDesc;
+
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 50.4px;
+  text-align: left;
+
+  margin-bottom: 24px;
+}
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 26px;
+  margin-bottom: 34px;
+}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.05em;
+
+  column-gap: 24px;
+}
+
+.contact__icon {
+  width: 31px;
+  height: 31px;
+
+  display: flex;
+  align-items: center;
+}
+
+.contact_number {
+  &:hover {
+    transform: translateY(-2px);
+    transition: 0.3s;
+  }
+}

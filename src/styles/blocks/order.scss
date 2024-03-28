@@ -1,0 +1,88 @@
+.order {
+  color: $colorText;
+
+  position: relative;
+  // z-index: 10;
+
+  // display: flex;
+  // align-items: center;
+
+  min-height: 463px;
+
+
+  background-color: transparent;
+}
+
+.order__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.order__title {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 64.8px;
+  text-align: center;
+
+  padding-top: 81px;
+  margin-bottom: 21px;
+}
+
+.order__title span {
+  color: $colorTitleSecond;
+}
+
+.order__leave {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+
+  margin-bottom: 53px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  // gap: 20px;
+  column-gap: 58px;
+  row-gap: 20px;
+}
+
+.form__input {
+  min-width: 288px;
+  height: 55px;
+  color: $backcolorDesc;
+  font-weight: 400;
+  font-size: 20px;
+
+  background-color: $colorText;
+  border: 1px solid transparent;
+  outline: 0;
+  padding: 0 13px;
+}
+
+.form__btn {
+  width: 167px;
+  height: 55px;
+  font-weight: 400;
+  font-size: 20px;
+  color: $colorText;
+  background-color: $colorBtnBackground;
+  cursor: pointer;
+
+  border: 1px solid transparent;
+
+  padding: 12px 22px;
+  text-align: center;
+
+  &:hover {
+    background-color: $colorBtnBackgroundHover;
+    transition: 0.3s
+    
+  };
+}

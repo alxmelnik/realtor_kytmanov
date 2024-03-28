@@ -43,7 +43,8 @@ header {
   padding: 10px 45px;
 
   &:hover {
-    transform: translateY(-2px);
+    // transform: translateY(-2px);
+    background-color: $colorBtnBackgroundHover;
     transition: .3s;
     
   }

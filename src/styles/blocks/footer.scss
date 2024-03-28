@@ -1,0 +1,33 @@
+.footer{
+  
+
+  background-color: $main-backcolor;
+  color: $colorText;
+
+  display: flex;
+
+  min-height: 468px;
+
+  padding-top: 44px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+
+.footer__map {
+  width: 826px;
+  height: 382px;
+
+  border: 2px solid black;
+
+  background-image: url("img/map/map.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}

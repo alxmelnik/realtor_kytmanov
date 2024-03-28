@@ -1,5 +1,6 @@
 
-$main-backcolor:rgb(171, 171, 171);
+// $main-backcolor:rgb(171, 171, 171);
+$main-backcolor:rgb(255, 255, 255);
 $backcolorDesc: rgba(40, 43, 48, 1);
 
 $colorText: rgb(255, 255, 255);
@@ -12,6 +13,7 @@ $colorTitleSecond: rgba(178, 136, 86, 1);
 
 
 $colorBtnBackground: rgba(180, 156, 130, 0.77);
+$colorBtnBackgroundHover: rgb(164, 133, 101);
 
 
 @import "./layout/media.scss";

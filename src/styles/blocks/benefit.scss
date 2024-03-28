@@ -27,12 +27,15 @@
 
   font-size: 16px;
   font-weight: 500;
+
+  column-gap: 20px;
+
   margin-bottom: 120px;
 }
 
 .benefit__item {
   max-width: 337px;
-  column-gap: 80px;
+  
 }
 
 .benefit__number {

@@ -16,7 +16,7 @@ html {
 }
 
 // body {
-//   font-size: 16px;
+//   background-color: $main-backcolor;
 // }
 
 ul,
@@ -64,7 +64,7 @@ img {
   overflow: hidden;
   min-height: 100%;
 
-  background-color: $main-backcolor;
+  // background-color: $main-backcolor;
 
   transition: 1s;
 }
