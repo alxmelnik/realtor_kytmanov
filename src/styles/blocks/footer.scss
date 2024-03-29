@@ -9,25 +9,18 @@
   min-height: 468px;
 
   padding-top: 44px;
+  padding-bottom: 40px;
 }
 
 .footer__container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+
+  flex-wrap: wrap;
+
+  gap: 40px;
 }
 
 
 
-.footer__map {
-  width: 826px;
-  height: 382px;
-
-  border: 2px solid black;
-
-  background-image: url("img/map/map.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-}
