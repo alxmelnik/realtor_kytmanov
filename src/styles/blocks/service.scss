@@ -65,7 +65,6 @@
 .service__item {
   position: relative;
 
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,31 +78,31 @@
 
   padding: 5px 57px 31px;
 
-  
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
 
+  cursor: pointer;
+
   &:nth-child(1) {
     background-image: url("img/service/service1.jpg");
-  };
+  }
   &:nth-child(2) {
     background-image: url("img/service/service2.jpg");
-  };
+  }
   &:nth-child(3) {
     background-image: url("img/service/service3.jpg");
-  };
+  }
   &:nth-child(4) {
     background-image: url("img/service/service4.jpg");
-  };
+  }
   &:nth-child(5) {
     background-image: url("img/service/service5.jpg");
-  };
+  }
   &:nth-child(6) {
     background-image: url("img/service/service6.jpg");
-  };
-
+  }
 }
 
 
@@ -117,36 +116,56 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-
-
-
+  justify-content: center;
 }
-
 
 .service__subtitle {
   font-size: 24px;
   font-weight: 700;
   line-height: 29.05px;
   letter-spacing: 0.05em;
+
+  padding-bottom: 12px;
 }
 
 .service__desc {
+  opacity: 0;
+  // width: 0;
+  // height: 0;
+  display: none;
+  visibility:hidden;
+
   max-width: 228px;
 
   font-size: 16px;
   font-weight: 500;
   line-height: 19.36px;
   letter-spacing: 0.05em;
+
+  // padding-bottom: 41px;
 }
 
 .service__price {
+  // opacity: 0;
+  // width: 0;
+  // height: 0;
+
+  display: none;
+
   font-size: 20px;
   font-weight: 700;
   line-height: 24.2px;
   letter-spacing: 0.05em;
+
+  padding-bottom: 42px;
 }
 
 .service__btn {
+  // opacity: 0;
+  // width: 0;
+  // height: 0;
+  display: none;
+
   font-size: 20px;
   font-weight: 500;
   line-height: 24.2px;
@@ -157,8 +176,39 @@
 
   &:hover {
     background-color: $colorBtnBackgroundHover;
-    transition: 0.3s
-    
-  };
+    transition: 0.3s;
+  }
+}
 
+.service__item:hover {
+  transition: padding 1s;
+
+  & .service__desc {
+    display: inline;
+    transition: 3s;
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: auto;
+
+    padding-bottom: 41px;
+  }
+
+  & .service__price {
+    display: inline;
+    transition: opacity, height 3s;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+
+  }
+
+  & .service__btn {
+    display: inline;
+    transition: opacity 3s;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+
+  }
 }
