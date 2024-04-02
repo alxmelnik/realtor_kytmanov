@@ -4,13 +4,14 @@
   min-height: 100vh;
 
   position: relative;
-  border-bottom: 2px solid black;
 
   background-image: url("img/welcome/welcome1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
+
+  // box-shadow: 0 10px 10px rgba(0, 0, 0, 0.32);
 }
 
 .welcome__blur {

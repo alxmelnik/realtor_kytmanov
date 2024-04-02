@@ -1,6 +1,12 @@
 .benefit {
   background-color: $backcolorDesc;
   color: $colorText;
+
+
+  position: relative;
+  z-index: 11;
+  box-shadow: 0px 12px 10px 10px rgb(255, 255, 255);
+
 }
 
 .benefit__container {
@@ -75,6 +81,9 @@
   font-weight: 500;
   line-height: 24.2px;
   letter-spacing: 0.05em;
+
+  box-shadow: 0px -12px 10px 10px rgb(255 255 255);
+
 }
 
 

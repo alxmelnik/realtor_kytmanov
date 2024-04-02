@@ -4,13 +4,15 @@
   min-height: 970px;
 
   position: relative;
-  border-bottom: 2px solid black;
+  // border-bottom: 2px solid black;
 
   background-image: url("img/service/service1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
+
+  box-shadow: 0px 5px 12px 6px rgb(40, 43, 48);
 }
 
 .service__blur {

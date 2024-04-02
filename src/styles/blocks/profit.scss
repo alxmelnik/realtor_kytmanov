@@ -1,6 +1,10 @@
 .profit {
+  position: relative;
+  
   background-color: $backcolorDesc;
   color: $colorText;
+
+  box-shadow: 0px 5px 12px 6px rgb(40, 43, 48);
 }
 
 .profit__container {
